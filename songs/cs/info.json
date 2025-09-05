@@ -1,5 +1,11 @@
 {
     "title":"Diljit Dosanjh",
     "description":"Songs  you",
-    "dev": "node server.js"
+    "dev": "node server.js",
+     "tracks": [
+    "BorntoShine-DiljitDosanjh.mp3",
+    "IshqDiBaajiyaan-DiljitDosanjh.mp3"
+    
+    
+  ]
 }

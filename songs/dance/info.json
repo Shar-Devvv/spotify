@@ -1,5 +1,13 @@
 {
     "title":"Anuv jain",
     "description":"Songs  you",
-    "dev": "node server.js"
+    "dev": "node server.js",
+     "tracks": [
+    "anuvjainafsos.mp3",
+    "arzkiya.mp3",
+    "BAARISHEIN.mp3",
+    "gul.mp3",
+    "jotummereho.mp3"
+    
+  ]
 }

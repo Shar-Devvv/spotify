@@ -1,4 +1,12 @@
 {
     "title":"Punjabi",
-    "description":"Songs for you"
+    "description":"Songs for you",
+    "tracks": [
+    "Palazzo.mp3",
+    "DHOLJAGEERODA.mp3",
+    "BapuZimidar.mp3",
+    "Laembadgini.mp3",
+    "GaalNiKadni.mp3"
+    
+  ]
 }

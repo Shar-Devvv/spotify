@@ -1,5 +1,15 @@
 {
     "title":"Karan Aujla",
     "description":"Songs for you",
-    "dev": "node server.js"
+    "dev": "node server.js",
+  "tracks": [
+    "COURTSIDE-KaranAujla.mp3",
+    "MFGABHRU!-KaranAujla.mp3",
+    "Tellme -KaranAujla.mp3",
+    "WAVY-KaranAujla.mp3",
+    "WinningSpeech-KaranAujla.mp3"
+    
+  ]
+
+
 }

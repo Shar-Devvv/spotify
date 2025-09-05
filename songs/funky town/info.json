@@ -1,5 +1,13 @@
 {
     "title":"Funky town",
     "description":"Songs  you",
-    "dev": "node server.js"
+    "dev": "node server.js",
+     "tracks": [
+    "funk-funky-beat-music-35-sec-369958.mp3",
+    "funk-funky-beat-music-338194.mp3",
+    "funky-funk-beat-music-39-sec-378025.mp3",
+    "funky-funk-beat-music-398947.mp3",
+    "funky-quirky-upbeat-commercial-music-392401.mp3"
+    
+  ]
 }

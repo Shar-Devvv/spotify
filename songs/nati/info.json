@@ -1,5 +1,13 @@
 {
     "title":"Nati",
     "description":"Songs for you",
-    "dev": "node server.js"
+    "dev": "node server.js",
+     "tracks": [
+    "Musheya.mp3",
+    "TeriGwalePinkia.mp3",
+    "TanuKiNatti.mp3",
+    "kaansaThali.mp3",
+    "JumiJimi.mp3"
+    
+  ]
 }

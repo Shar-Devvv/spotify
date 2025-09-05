@@ -1,5 +1,11 @@
 {
     "title":"English",
     "description":"Songs for you",
-    "dev": "node server.js"
+    "dev": "node server.js",
+     "tracks": [
+    "eng1.mp3",
+    "eng2mp3"
+    
+    
+  ]
 }

@@ -1,0 +1,5 @@
+{
+    "title":"Nati",
+    "description":"Songs for you",
+    "dev": "node server.js"
+}

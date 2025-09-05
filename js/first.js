@@ -14,7 +14,7 @@ function secondsToMinutesSeconds(seconds) {
 
 async function getSongs(folder) {
     currFolder = folder;
-    let a = await fetch(`http://127.0.0.1:5500/${folder}/`);
+    let a = await fetch(`${folder}/`);
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
@@ -77,7 +77,7 @@ async function displayAlbum() {
         let folders = ["cs", "ncs"];
 
         // ✅ Auto-discover all folders inside /songs/
-        let a = await fetch(`http://127.0.0.1:5500/songs/`);
+        let a = await fetch(`songs/`);
         let response = await a.text();
         let div = document.createElement("div");
         div.innerHTML = response;
@@ -95,7 +95,7 @@ async function displayAlbum() {
         // ✅ Now load cards for each folder
         for (let folder of folders) {
             try {
-                let res = await fetch(`http://127.0.0.1:5500/songs/${folder}/info.json`);
+                let res = await fetch(`songs/${folder}/info.json`);
                 if (!res.ok) {
                     console.warn("Missing info.json for", folder);
                     continue;
